@@ -1,3 +1,6 @@
+"""
+Error output
+"""
 from multiprocessing import Process
 import numpy as np
 
