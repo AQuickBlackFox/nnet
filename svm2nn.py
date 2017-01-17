@@ -96,4 +96,4 @@ for i in range(len(dataPoints_z)):
     x = dataPoints_x[i]
     y = dataPoints_y[i]
     z = dataPoints_z[i]
-    print(a1 * x + b1 * y + c1, z)
+    print(layer4(layer1(x, y), layer2(x, y), layer3(x, y)), z)
